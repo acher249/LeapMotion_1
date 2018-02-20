@@ -1,0 +1,12 @@
+ReadME.
+
+Using Unity 2017.3.0f3
+
+LeapMotion Modules:
+  - Leap_Motion_HandsModule_2.1.3
+  - Leap_Motion_Interaction_Engine_1.1.1
+  - Leap_Motion_Core_Assets_4.3.4
+  
+  If re-clone repo need to re-import packages.
+  
+  
