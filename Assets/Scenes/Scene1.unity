@@ -1438,6 +1438,62 @@ Transform:
   m_PrefabParentObject: {fileID: 4493201980653798, guid: df84af96020c94b4695aec5c3427db16,
     type: 2}
   m_PrefabInternal: {fileID: 584525450}
+--- !u!1001 &588848809
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4623349488349716, guid: 8c277bf44110eac49aba960d75e3f376, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.264
+      objectReference: {fileID: 0}
+    - target: {fileID: 4623349488349716, guid: 8c277bf44110eac49aba960d75e3f376, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4623349488349716, guid: 8c277bf44110eac49aba960d75e3f376, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.601
+      objectReference: {fileID: 0}
+    - target: {fileID: 4623349488349716, guid: 8c277bf44110eac49aba960d75e3f376, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4623349488349716, guid: 8c277bf44110eac49aba960d75e3f376, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4623349488349716, guid: 8c277bf44110eac49aba960d75e3f376, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4623349488349716, guid: 8c277bf44110eac49aba960d75e3f376, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4623349488349716, guid: 8c277bf44110eac49aba960d75e3f376, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114738035784259250, guid: 8c277bf44110eac49aba960d75e3f376,
+        type: 2}
+      propertyPath: _manager
+      value: 
+      objectReference: {fileID: 708822598}
+    - target: {fileID: 114738035784259250, guid: 8c277bf44110eac49aba960d75e3f376,
+        type: 2}
+      propertyPath: _allowMultiGrasp
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1549291646585934, guid: 8c277bf44110eac49aba960d75e3f376, type: 2}
+      propertyPath: m_Name
+      value: InteractionCube (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 8c277bf44110eac49aba960d75e3f376, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &689877807
 Prefab:
   m_ObjectHideFlags: 0
