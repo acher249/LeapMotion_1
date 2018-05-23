@@ -4335,7 +4335,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11488530, guid: 64feb4bac2ce71045aeb3a49793d28ad, type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11488530, guid: 64feb4bac2ce71045aeb3a49793d28ad, type: 2}
       propertyPath: m_flexParticles
@@ -4344,6 +4344,10 @@ Prefab:
     - target: {fileID: 11488530, guid: 64feb4bac2ce71045aeb3a49793d28ad, type: 2}
       propertyPath: m_size
       value: 0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2310520, guid: 64feb4bac2ce71045aeb3a49793d28ad, type: 2}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64feb4bac2ce71045aeb3a49793d28ad, type: 2}
