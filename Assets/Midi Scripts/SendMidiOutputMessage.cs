@@ -10,7 +10,11 @@ public class SendMidiOutputMessage : MonoBehaviour
     {
         RtMidi.Initialize();///Initializes RtMidi
         RtMidi.Output.Device.Open(0);//Opens the first MIDI Output Device ("Microsoft GS Wavetable Synth" by default on Windows)
-        
+
+        //var dev = RtMidi.Output.Device.Open(1);
+        //Debug.Log(dev);
+
+
     }
 
 
@@ -22,7 +26,7 @@ public class SendMidiOutputMessage : MonoBehaviour
         RtMidi.Output.Message.Byte(100);//Adds one byte to the MIDI Message buffer
         RtMidi.Output.Message.Send();//Sends the MIDI Message to the MIDI Output Device
 
-        Debug.Log("This got click.. Send Midi");
+        Debug.Log("This got clicked.. Send Midi");
     }
 
     void OnApplicationQuit()
