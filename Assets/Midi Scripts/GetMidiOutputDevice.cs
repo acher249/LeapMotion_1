@@ -24,9 +24,9 @@ public class GetMidiOutputDevice : MonoBehaviour
             Debug.Log(RtMidi.Output.Device.Name(i));
         }
 
-        RtMidi.Input.Device.Open(2);//Opens the third MIDI Input Device ("Oxygen 49" MIDI Keyboard in my case)
-        RtMidi.Output.Device.Open(0);//Opens the first MIDI Output Device ("Microsoft GS Wavetable Synth" by default on Windows)
-        RtMidi.Input.Device.AutoMessage(true);//Sends all received MIDI Input Messages to the MIDI Output Device ("Oxygen 49" >>> "Microsoft GS Wavetable Synth" in my case)
+        //RtMidi.Input.Device.Open(2);//Opens the third MIDI Input Device ("Oxygen 49" MIDI Keyboard in my case)
+        RtMidi.Output.Device.Open(1);//Opens the first MIDI Output Device ("Microsoft GS Wavetable Synth" by default on Windows)
+        //RtMidi.Input.Device.AutoMessage(true);//Sends all received MIDI Input Messages to the MIDI Output Device ("Oxygen 49" >>> "Microsoft GS Wavetable Synth" in my case)
 
     }
 

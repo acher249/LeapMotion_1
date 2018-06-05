@@ -9,10 +9,9 @@ public class SendMidiOutputMessage : MonoBehaviour
     void Awake()
     {
         RtMidi.Initialize();///Initializes RtMidi
-        RtMidi.Output.Device.Open(0);//Opens the first MIDI Output Device ("Microsoft GS Wavetable Synth" by default on Windows)
+        RtMidi.Output.Device.Open(1);//Opens the first MIDI Output Device ("Microsoft GS Wavetable Synth" by default on Windows)
 
-        //var dev = RtMidi.Output.Device.Open(1);
-        //Debug.Log(dev);
+        Debug.Log("Opened Device 2");
 
 
     }
