@@ -326,19 +326,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4977680193926374, guid: 860553352aaa5784a8a8c25ac86d880b, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4977680193926374, guid: 860553352aaa5784a8a8c25ac86d880b, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.106477916
+      value: 0.13383056
       objectReference: {fileID: 0}
     - target: {fileID: 4977680193926374, guid: 860553352aaa5784a8a8c25ac86d880b, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.10647793
+      value: 0.13383055
       objectReference: {fileID: 0}
     - target: {fileID: 4977680193926374, guid: 860553352aaa5784a8a8c25ac86d880b, type: 2}
       propertyPath: m_LocalScale.z
-      value: 0.10647793
+      value: 0.13383055
       objectReference: {fileID: 0}
     - target: {fileID: 4977680193926374, guid: 860553352aaa5784a8a8c25ac86d880b, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -351,6 +351,31 @@ Prefab:
       objectReference: {fileID: 1970898635}
     - target: {fileID: 1063223676487608, guid: 860553352aaa5784a8a8c25ac86d880b, type: 2}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198736511320552434, guid: 860553352aaa5784a8a8c25ac86d880b,
+        type: 2}
+      propertyPath: ShapeModule.m_Scale.z
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 198736511320552434, guid: 860553352aaa5784a8a8c25ac86d880b,
+        type: 2}
+      propertyPath: randomSeed
+      value: -483868267
+      objectReference: {fileID: 0}
+    - target: {fileID: 198736511320552434, guid: 860553352aaa5784a8a8c25ac86d880b,
+        type: 2}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: -0.00025
+      objectReference: {fileID: 0}
+    - target: {fileID: 198736511320552434, guid: 860553352aaa5784a8a8c25ac86d880b,
+        type: 2}
+      propertyPath: ShapeModule.m_Scale.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 198736511320552434, guid: 860553352aaa5784a8a8c25ac86d880b,
+        type: 2}
+      propertyPath: ShapeModule.alignToDirection
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -3535,7 +3560,7 @@ Transform:
   m_Children:
   - {fileID: 2141165614}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 38.336002, y: 2.243, z: 1.1290001}
 --- !u!1 &1082604728 stripped
 GameObject:
@@ -3753,7 +3778,7 @@ Transform:
   - {fileID: 993508918}
   - {fileID: 708822597}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1228781528
 Prefab:
@@ -4882,7 +4907,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2007528596
 Prefab:
